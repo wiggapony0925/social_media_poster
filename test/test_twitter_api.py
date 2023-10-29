@@ -17,13 +17,12 @@ class TestTwitterApi(unittest.TestCase):
             access_token='access_token',
             access_token_secret='access_token_secret'
         )
-        twitter_api.api = mock_api  # Override the api attribute with your mock object
+        twitter_api.api = mock_api  
 
         # Call the post method
         content = "Test tweet content"
         twitter_api.post(content)
 
-        # Check that the mock API's update_status method was called with the correct argument
         mock_api.update_status.assert_called_once_with(status=content)
 
 if __name__ == '__main__':
