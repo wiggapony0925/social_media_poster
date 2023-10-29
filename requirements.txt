@@ -1,0 +1,5 @@
+tweepy==3.10.0
+facebook-sdk==3.1.0
+praw==7.4.0
+PyYAML==5.4.1
+python-dotenv==0.19.0
