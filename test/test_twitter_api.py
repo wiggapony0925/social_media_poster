@@ -4,9 +4,9 @@ from social_api import TwitterApi
 
 class TestTwitterApi(unittest.TestCase):
 
+
     def test_credentials(self):
         pass
-
 
     def test_post(self):
         # Mock the Tweepy API

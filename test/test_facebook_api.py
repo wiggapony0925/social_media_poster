@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock
-from social_api.facebook import FacebookAPI
+from social_api import FacebookAPI
 
 class TestFacebookAPI(unittest.TestCase):
     
